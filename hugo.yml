@@ -9,12 +9,14 @@ module:
     - source: layouts
       target: layouts
 
-# Params
+# Admin
 params:
   admin:
     collections:
       jobs_categories:
         enable: true
+        icon:
+          sveltiacms: bookmarks
 
 # Permalink
 permalinks:
